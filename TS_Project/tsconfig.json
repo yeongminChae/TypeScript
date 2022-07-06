@@ -4,9 +4,8 @@
     "outDir": "build",
     "esModuleInterop": true,
     "target": "ES6",
-    "lib": ["ES6", "DOM"], // i can tell typescripts where my code will run
-    "strict": true
+    "lib": ["ES6", "DOM"],
+    "strict": true,
+    "allowJs": true
   }
 }
-
-// created by -> touch tsconfig.json (in terminal)
